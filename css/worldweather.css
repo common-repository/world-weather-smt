@@ -1,0 +1,173 @@
+/*  CSS WorldWeather    */
+
+.worldweather_main {
+  padding:5px;
+  margin:5px;
+  margin-bottom:20px;
+}
+.worldweather_hourly_icon {
+  width:48px;
+  height:48px;
+  margin:5px;
+}
+.worldweather_forecast_bigtemp {
+  font-size:15px;
+  font-weight: bold;;
+}
+.worldweather_forecast_td {
+  padding:1px;
+}
+.worldweather_forecast_lead {
+  font-size:14px;
+  font-weight: bold;
+  line-height: 120%;
+}
+.worldweather_forecast_small {
+  font-size:13px;
+  line-height: 14px;
+}
+.worldweather_forecast_details {
+  font-size:11px;
+  line-height: 13px;
+}
+.worldweather_forecast_temp {
+  background-color: lightcyan;
+}
+.forecast_daterow {
+  background-color: gainsboro;
+  font-size:20px;
+  font-weight: bold;
+}
+
+.forecast_icon {
+  vertical-align: middle;
+}
+
+/*  Widget  */
+
+.worldweather_widget_icon {
+  width:48px;
+  height:48px;
+}
+
+.worldweather_widget_details {
+  font-size:12px;
+  line-height:120%;
+}
+
+.worldweather_widget_forecast_daytitle {
+  margin-bottom:0px;
+  margin-top:5px;
+}
+
+.worldweather_widget_forecast_table {
+  margin-bottom:10px;
+  margin-top:0px;
+}
+
+.worldweather_widget_forecast_hour {
+  font-size:11px;
+  color:gray;
+}
+
+.worldweather_widget_forecast_icon {
+  width:32px;
+  height:32px;
+  text-align: center;
+}
+
+.worldweather_widget_forecast_temperature {
+  font-size:12px;
+  font-weight: bold;
+}
+
+.worldweather_widget_credit {
+  font-size:12px;
+  text-align: center;
+  border-top:1px dotted gainsboro;
+  margin-top:10px;
+  padding-top:0px;
+}
+
+/*  Shortcode errors  */
+
+.worldweather_errors {
+  margin:5px;
+  padding:15px;
+  padding-bottom:0px;
+  background-color: #ffe4e4;
+  border:1px dashed red;
+}
+
+.worldweather_errors_error {
+  font-family: 'Courier New', monospace;
+  font-weight: bold;
+  font-size:15px;
+}
+
+/*  Shortcode Generator  */
+
+.worldweather_shortcode_generator_result {
+  font-family: monospace;
+  font-size: 15px;
+  padding:10px;
+  background-color: gainsboro;
+  border:1px solid silver;
+  margin-bottom:10px;
+}
+
+/*  Options Page */
+
+.worldweather_options_block {
+  border:solid 1px silver;
+  margin-bottom:10px;
+  margin-right:10px;
+  background-color: white;
+  padding-left:15px;
+  padding-right:15px;
+}
+
+.worldweather_options_rightcol {
+  padding:10px;
+  background-color: white;
+  border:solid 1px silver;
+}
+
+.worldweather_option_license_details_table {
+  font-size:10px;
+  width:100%;
+  padding:0px;
+}
+.worldweather_option_license_details_table th{
+  background-color: gainsboro;
+}
+.worldweather_option_license_details_table td{
+  font-size:11px;
+  border-bottom:1px dashed gainsboro;
+}
+
+#worldweather_options_overlay {
+    background: gray;
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.7;
+}
+
+#worldweather_waiting_text {
+    background: gray;
+    width: auto;
+    height: auto;
+    margin: auto;
+    padding: 10px;
+    position: relative;
+    font-size: 32px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    top: 50%;
+    transform: perspective(1px) translateY(-50%);
+}
